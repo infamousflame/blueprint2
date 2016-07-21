@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,300);
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
+body, html{
+  overflow: none;
+}
+a{
+  color:inherit;
+}
+#home{
+  background-image: url("../img/blueprint1basement.gif");
+  background-size: cover;
+  height:100vh;
+}
+.navbar-default .navbar-nav>li>a{
+  color:white;
+}
+.navbar{
+  margin-bottom: 0;
+  padding-bottom: 58px;
+  font-size:16px;
+}
+.navbar-nav{
+  padding-top: 10px;
+}
+.navbar-default{
+  background:none  rgba(0, 0, 0, .65);
+  border: none;
+}
+.color{
+  background-color: rgba(0, 0, 0, .6);
+  height:100vh;
+}
+h1{
+  color:white;
+}
+p{
+  color:white;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+  max-width: 44%;
+  padding-top: 13px;
+}
